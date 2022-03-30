@@ -1,0 +1,19 @@
+<assembly>
+    <id>zip</id>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <baseDirectory>.</baseDirectory>
+    <formats>
+        <format>zip</format>
+        <format>dir</format>
+    </formats>
+    <files>
+        <file>
+            <source>scripts/validate.bat</source>
+            <outputDirectory>.</outputDirectory>
+        </file>
+        <file>
+            <source>${project.build.directory}/${project.artifactId}-executable-jar-with-dependencies.jar</source>
+            <outputDirectory>.</outputDirectory>
+        </file>
+    </files>
+</assembly>

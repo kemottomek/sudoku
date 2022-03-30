@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="validate from distribution" type="BatchConfigurationType" factoryName="Batch">
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="WORKING_DIRECTORY" value="./target/distribution" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="SUDOKU_MAX_FILE_SIZE" value="1000" />
+      <env name="SUDOKU_SEPARATOR" value="," />
+    </envs>
+    <module name="" />
+    <option name="SCRIPT_NAME" value="validate.bat" />
+    <option name="PARAMETERS" value="..\..\src\test\resources\sudoku\Sudoku7_VALID_UTF8BOM.csv" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
